@@ -6,7 +6,6 @@ import { HistorySection } from '@/components/HistorySection';
 import { ActivitiesSection } from '@/components/ActivitiesSection';
 import { GallerySection } from '@/components/GallerySection';
 import { LeadershipSection } from '@/components/LeadershipSection';
-import { ApplicationSection } from '@/components/ApplicationSection';
 
 const Index = () => {
   return (
@@ -17,7 +16,6 @@ const Index = () => {
       <ActivitiesSection />
       <GallerySection />
       <LeadershipSection />
-      <ApplicationSection />
     </div>
   );
 };

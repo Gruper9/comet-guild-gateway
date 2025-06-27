@@ -1,7 +1,10 @@
 
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const HeroSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
@@ -20,7 +23,7 @@ export const HeroSection = () => {
             and create unforgettable memories together in the world of MapleStory.
           </p>
           <button 
-            onClick={() => document.getElementById('application')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => navigate('/apply')}
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-cyan-500/25"
           >
             Join Our Guild
