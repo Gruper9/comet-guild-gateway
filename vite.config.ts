@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-   base: '/comet-guild-gateway/',
+  base: '/comet-guild-gateway/',
   server: {
     host: "::",
     port: 8080,
