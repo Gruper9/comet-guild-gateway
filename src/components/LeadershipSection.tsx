@@ -47,7 +47,7 @@ export const LeadershipSection = () => {
     }
   ];
 
-  const getMarginClass = (level) => {
+  const getMarginClass = (level: number) => {
     switch (level) {
       case 1: return 'ml-0';
       case 2: return 'ml-8 md:ml-16';
