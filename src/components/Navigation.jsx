@@ -15,7 +15,7 @@ export const Navigation = () => {
     { id: 'leadership', label: 'Leadership' },
   ];
 
-  const scrollToSection = (sectionId: string) => {
+  const scrollToSection = (sectionId) => {
     if (location.pathname !== '/') {
       navigate('/');
       setTimeout(() => {
